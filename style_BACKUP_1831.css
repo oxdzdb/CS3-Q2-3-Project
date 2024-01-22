@@ -139,6 +139,7 @@ header {
 	padding: 10px;
 }
 
+<<<<<<< HEAD
 #home-container {
 	background-color: aliceblue;
 	margin: 0;
@@ -183,8 +184,7 @@ section {
 
 #feature-table figcaption {
 	padding: 2px;
-}
-
+=======
 .calcBox {
         width: 100%;
 		height: 100vh;
@@ -196,6 +196,7 @@ section {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+>>>>>>> b9abe96b8ada339f3994d7f4047f3707e17f2717
 }
  /* NOTES: 
 -use @media for multi-platform beauty (@media w3schools) 

@@ -9,25 +9,27 @@
 </head>
 
 <body>
-  <h1>Calculator</h1>
-  <p>0</p> <br>
-  <button onClick="">7</button>
-  <button onClick="">8</button>
-  <button onClick="">9</button>
-  <button onClick="">/</button>
-  <button onClick="">X</button>
-  <button onClick="">C</button> <br>
-  <button onClick="">4</button>
-  <button onClick="">5</button>
-  <button onClick="">6</button>
-  <button onClick="">-</button>
-  <button onClick="">+</button> <br>
-  <button onClick="input1()">1</button>
-  <button onClick="">2</button>
-  <button onClick="">3</button> <br>
-  <button onClick="input0()">0</button>
-  <button onClick="">00</button>
-  <button onClick="">.</button>
+  <header>
+    <h1>Calculator</h1>
+  </header>
+  <nav class="navigator">
+    <a href="index.html" class="button"> Home</a>
+    <a href="Tools.html" class="button"> Tools</a>
+    <a href="AboutUs.html" class="button"> About Us</a>
+  </nav>
+  <div class="calcBox"> 
+	<div class="calculator">
+		<div>
+			<input type="text" name="display">
+		</div>
+		<div>
+			<input type="button" value="AC">
+			<input type="button" value="DE">
+			<input type="button" value=".">
+			<input type="button" value="/">
+		</div>
+	</div>
+  </div>
 
   <script src="script.js"></script>
   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
