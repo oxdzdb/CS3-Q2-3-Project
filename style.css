@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 h1 {
@@ -56,6 +56,7 @@ nav.navigator {
   padding: 10px;
   display: table-column;
   bottom: 0px;
+  display: absolute;
 }
 
 section>img {
@@ -136,6 +137,52 @@ body {
 header {
 	background-color: #b0dce4;
 	padding: 10px;
+}
+
+#home-container {
+	background-color: aliceblue;
+	margin: 0;
+}
+
+#paragraph-container {
+	background-color: aliceblue;
+}
+
+#home-img {
+	width: 30%;
+}
+
+hr {
+	margin: 0;
+}
+
+section {
+	padding: 10px;
+	width: 80%;
+	background-color: aliceblue;
+}
+
+#features-section {
+	background-color: lavender;
+}
+
+#feature-table {
+	border-spacing: 25px;
+	margin: 0 auto;
+}
+
+#feature-table td {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 0;
+}
+
+#feature-table figure {
+	height: 100%;
+}
+
+#feature-table figcaption {
+	padding: 2px;
 }
  /* NOTES: 
 -use @media for multi-platform beauty (@media w3schools) 
