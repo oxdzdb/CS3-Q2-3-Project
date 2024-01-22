@@ -120,8 +120,8 @@ div>button {
   position: absolute;
 }
 
-.burgers {
-  font-size: 20px;
+.menu {
+  font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -212,10 +212,17 @@ section {
 	font-size: 20px;
 	color: #000000;
 	margin: 10px;
+}
 
 .featImg { 
 	width: 100%;
 	height: 100%;
+}
+
+.items {
+	font-weight: bold;
+	color: #A30A07;
+	padding: 10px;
 }
  /* NOTES: 
 -use @media for multi-platform beauty (@media w3schools) 

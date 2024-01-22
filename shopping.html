@@ -6,53 +6,64 @@
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-  <h1><img src="images/placeholders/mikoborgar.png" style="width: 70px; length: 50px;">  Miko Borgar</h1>
+<body style="background-color: #E6C591;">
+  <h1><img src="images/placeholders/mikoborgar.png" style="width: 100px; length: 75px;">Miko Borgar</h1>
   <nav class="navigator">
     <a href="index.html" class="button">Home</a>
     <a href="Tools.html" class="button">Tools</a>
     <a href="AboutUs.html" class="button">About Us</a>
   </nav>
   <hr>
-  <h2 class="burgers">Combos</h2>
-  <p>All-Meat<ul>
+  <h2 class="menu">Combos</h2>
+  <p class="items">All-Meat</p><ul>
     <li>Buns, 4 [REDACTED] patties</li>
     <li>Medium Dr. Eirin</li>
   </ul>
   <caption>Quantity:</caption>
   <input type="number" id="almlt" name="allmt" min="0" max="99">
-</p> <br>
-  <p>Colossal Cheese<ul>
+  <input type="button" id="buyButton" value="Buy" onclick="price()"><br>
+  <p class="items">Colossal Cheese<ul>
     <li>Buns, 10 Cheese slices, Cheese Sauce</li>
     <li>Medium Fries</li>
     <li>Small Dr. Eirin</li>
   </ul>
 <caption>Quantity:</caption>
-<input type="number" id="clchs" name="clchs" min="0" max="99"></p> <br>
-  <p>Peach Burger<ul>
+<input type="number" id="clchs" name="clchs" min="0" max="99">
+<input type="button" id="buyButton" value="Buy" onclick="price()">
+</p> <br>
+  <p class="items">Peach Burger<ul>
     <li>Buns, 4 Peach Slices, Lettuce</li>
     <li>Small Peach Lemonade</li>
   </ul>
 <caption>Quantity:</caption>
-<input type="number" id="pcbgr" name="pcbgr" min="0" max="99"></p> <br>
-  <p>Mushroom Magic<ul>
+<input type="number" id="pcbgr" name="pcbgr" min="0" max="99">
+<input type="button" id="buyButton" value="Buy" onclick="price()">
+</p> <br>
+  <p class="items">Mushroom Magic<ul>
     <li>Buns, 3 Hallucinogenic Mushrooms, 1 beef patty, Mayonnaise</li>
     <li>Medium Purple Potion</li>
   </ul>
 <caption>Quantity:</caption>
-<input type="number" id="msmag" name="msmag" min="0" max="99"></p> <br>
-  <p>Budget Burger<ul>
+<input type="number" id="msmag" name="msmag" min="0" max="99">
+<input type="button" id="buyButton" value="Buy" onclick="price()">
+</p> <br>
+  <p class="items">Budget Burger<ul>
     <li>Buns</li>
     <li>Small Green Tea</li>
   </ul>
 <caption>Quantity:</caption>
-<input type="number" id="bdbgr" name="bdbgr" min="0" max="99"></p> <br>
-  <p>Aki Special<ul>
-    <li>Buns, </li>
-    <li>Small Green Tea</li>
+<input type="number" id="bdbgr" name="bdbgr" min="0" max="99">
+<input type="button" id="buyButton" value="Buy" onclick="price()">
+</p> <br>
+  <p class="items">Aki Special</p>
+  <ul>
+    <li>Buns, Sweet Potatoes, Lettuce, Tomatoes, Carrots</li>
+    <li>Medium Four Seasons Juice</li>
   </ul>
   <caption>Quantity:</caption>
-  <input type="number" id="bdbgr" name="bdbgr" min="0" max="99"></p> <br>
+  <input type="number" id="bdbgr" name="bdbgr" min="0" max="99">
+  <input type="button" id="buyButton" value="Buy" onclick="price()">
+<br>
 
   <img src="images/placeholders/mikobpromotional.jpg" style="width: 500px; length: 500px;">
 
