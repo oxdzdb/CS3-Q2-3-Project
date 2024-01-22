@@ -137,6 +137,19 @@ header {
 	background-color: #b0dce4;
 	padding: 10px;
 }
+
+.calcBox {
+        width: 100%;
+		height: 100vh;
+        background-color: #0C2D33;
+        text-align: center;
+}
+
+.calculator {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
  /* NOTES: 
 -use @media for multi-platform beauty (@media w3schools) 
 -use w3.css for wireframing 
