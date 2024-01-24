@@ -60,9 +60,9 @@ nav.navigator {
 }
 
 section>img {
-  width: 80%;
-  height: 100px;
-  margin: auto;
+	position: relative;
+	margin: auto;
+	width: 50%;
 }
 
 .sideButton {
@@ -82,7 +82,7 @@ footer {
   bottom: 0;
   width: 1495px;
   height: 10%;
-  padding: 5px 8px 8px 8px;
+  padding: 5px 8px 15px 8px;
 }
 
 tr>td {
@@ -149,7 +149,9 @@ header {
 }
 
 #home-img {
-	width: 30%;
+	width: 80%;
+	height:100px;
+	margin: auto;
 }
 
 hr {

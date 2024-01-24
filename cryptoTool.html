@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Toolbox</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="tools" />
+  <meta name="description" content="miscellanous online tools website" />
+  <meta name="author" content="Bryan Gil G. Batarilan/Jeremy Angelo W. Empedrad" />
+  <meta name="revised" content="29/11/23" />
+  <link rel="icon" href="images/favicon/theToolbox.png" type="image/ico" sizes="16x16">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- do not forget to give your comments -->
+  <header>
+	<img src="images/favicon/theToolbox.png" alt="logo" id="headerIcon" width="75px" height="75px"/>
+    <h1 id="title">The Toolbox</h1>
+  </header>
+
+  <nav class="navigator">
+    <a href="index.html" class="button">Home</a>
+    <a href="Tools.html" class="button">Tools</a>
+    <a href="AboutUs.html" class="button">About Us</a>
+  </nav>
+  <div class="sidebar">
+    <table>
+      <th>
+        <h2> Categories </h2>
+      </th>
+      <tr class="sideButton">
+        <td>Number 1 <br> DORIME OMANARE ADAPARE DORIME AMENO AMENO LATIRE LATIRE MO</td>
+      </tr>
+      <tr class="sideButton">
+        <td>Number 2 <br> DORIME OMANARE ADAPARE DORIME AMENO AMENO LATIRE LATIRE MO</td>
+      </tr>
+      <tr class="sideButton">
+        <td>Number 3 <br> DORIME OMANARE ADAPARE DORIME AMENO AMENO LATIRE LATIRE MO</td>
+      </tr>
+      <tr class="sideButton">
+        <td>Number 4 <br> DORIME OMANARE ADAPARE DORIME AMENO AMENO LATIRE LATIRE MO</td>
+      </tr>
+    </table>
+  <button id="moveSidebar()"></button>
+  </div>
+
+	<section>
+	<div id="home-container">
+		<h2>Cryptocurrency</h2>
+		<img id="home-img" src="images/placeholders/cirnoFumo.png" alt="plchldr1">
+	</div>
+    <hr>
+	</section>
+	<aside> 
+		<form action="/action_page.php">
+  <label for="cars"><h1>Choose a Cryptocurrency: </h1></label>
+  <select name="cryptocurrency" style="height:30px;">
+    <option value="" id="none" onclick="bitcoinGraph(none.value)"></option>
+    <option value="bitcoin" id="bitcoin" onclick="bitcoinGraph(bitcoin.value)">Bitcoin</option>
+  </select>
+  <div id="cryptocurrency">
+  </div>
+  <div id="ccoutput">
+  </div>
+  <footer>
+    <h3>Contact Us</h3>
+    &copy; 2023 BIB & JEW. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
