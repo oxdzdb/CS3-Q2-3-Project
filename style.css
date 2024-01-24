@@ -262,11 +262,11 @@ form input:active {
 	margin: 5px;
 	font-weight: bold;
 	font-size: 15px;
+	color: #ffffff;
 }
 
 .tutorialArea {
 	display: inline-block;
-	border: 2px solid #ffffff;
     padding: 20px;
 }
 
@@ -289,8 +289,12 @@ form input:active {
 .tutorBlock {
 	width: 50%;
     padding: 20px;
-    border: 3px solid red;
-	float: right;
+    border: 5px solid #0000FF;
+	float: left;
+}
+
+.tutorBlock h2 {
+	color: #ffffff;
 }
 
  /* NOTES: 
