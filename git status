@@ -1,0 +1,79 @@
+[33mcommit 59aa4f78b3af9158ea65668c2325bcfc3c4c2c9e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Wed Jan 24 21:04:37 2024 +0800
+
+    add tutorials help
+
+[33mcommit 3f486e91f92bba386850288323aed38ec39670c8[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Wed Jan 24 20:30:16 2024 +0800
+
+    add base tutorials
+
+[33mcommit d2893addb7f4b58d92c0f6eabab446807202d8b5[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Tue Jan 23 23:31:57 2024 +0800
+
+    add finished calculator
+
+[33mcommit ff706f784b7654c2ae5d296162858a31c2b6bd93[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Mon Jan 22 21:28:11 2024 +0800
+
+    add shopping page mods
+
+[33mcommit 7d98e5390369016050f574251d7deee690ca826d[m
+Author: RedSatura <redsatura2147@gmail.com>
+Date:   Mon Jan 22 20:55:14 2024 +0800
+
+    fix index feature images
+
+[33mcommit cdd497be11c27f8ff8b5576c468f529c21f16eb7[m
+Merge: 9a5338d 5e886d0
+Author: RedSatura <redsatura2147@gmail.com>
+Date:   Mon Jan 22 20:45:01 2024 +0800
+
+    Merge branch 'main' of https://github.com/oxdzdb/CS3-Q2-Project
+
+[33mcommit 9a5338dba1652a08c3dead65cc7d97cd241bee5a[m
+Author: RedSatura <redsatura2147@gmail.com>
+Date:   Mon Jan 22 20:44:44 2024 +0800
+
+    style navigator buttons
+
+[33mcommit 5e886d0874def948e5a18f0672aaa3dbd57d89e7[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Mon Jan 22 20:43:22 2024 +0800
+
+    add non-functional calculator
+
+[33mcommit 7faeedd9eebb2d883ef1d3878906f290ac759605[m
+Merge: 12d37b1 b9abe96
+Author: RedSatura <redsatura2147@gmail.com>
+Date:   Mon Jan 22 20:06:31 2024 +0800
+
+    resolve style merge conflict
+
+[33mcommit 12d37b1a9a5b9c1ec5af2306dd65dd3034708568[m
+Author: RedSatura <redsatura2147@gmail.com>
+Date:   Mon Jan 22 19:59:09 2024 +0800
+
+    finish index home section, feature section
+
+[33mcommit b9abe96b8ada339f3994d7f4047f3707e17f2717[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Mon Jan 22 19:57:17 2024 +0800
+
+    add bare calculator tool
+
+[33mcommit f3c829a4cafb3b4f5412d11373160b86c70efcff[m
+Author: oxidized <oxidizedb@gmail.com>
+Date:   Mon Jan 22 18:38:42 2024 +0800
+
+    initial commit
+
+[33mcommit 5a29536af1f360373249248b13b29445eb1de6af[m
+Author: oxdzdb <152676360+oxdzdb@users.noreply.github.com>
+Date:   Mon Jan 22 17:41:31 2024 +0800
+
+    Initial commit
