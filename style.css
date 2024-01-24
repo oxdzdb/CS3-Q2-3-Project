@@ -257,6 +257,11 @@ form input:active {
 	color: #A30A07;
 	padding: 10px;
 }
+
+.tutorialArea {
+	padding: 10px;
+}
+
  /* NOTES: 
 -use @media for multi-platform beauty (@media w3schools) 
 -use w3.css for wireframing 
