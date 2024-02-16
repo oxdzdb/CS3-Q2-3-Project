@@ -22,7 +22,7 @@
     <a href="Tools.html" class="button">Tools</a>
   </nav>
   <hr>
-<form action="shoppingCart.html">
+<form action="shoppingCart.html" onsubmit="return cashRegister();">
   <div class="paddedDiv">
 	  <h2 class="menu">Combos</h2>
 	  <p class="items">All-Meat - 149.99</p><ul>
@@ -31,7 +31,7 @@
 	  </ul>
 	  <label for="quantity">Quantity:</label><br/>
 	  <input type="number" id="almlt" name="allmt" min="0" max="99">
-	  <input type="button" id="buyButton" value="Buy" onclick="almltTotal()"> 
+	  <input type="button" id="buyButton" value="Buy"> 
 	  <p class="items">Colossal Cheese - 199.99<ul>
 		<li>Buns, 10 Cheese slices, Cheese Sauce</li>
 		<li>Medium Fries</li>
@@ -39,7 +39,7 @@
 	  </ul>
 	<label for="quantity">Quantity:</label><br/>
 	<input type="number" id="clchs" name="clchs" min="0" max="99">
-	<input type="button" id="buyButton" value="Buy" onclick="price()">
+	<input type="button" id="buyButton" value="Buy">
 	</p> <br>
 	  <p class="items">Peach Burger - 129.99<ul>
 		<li>Buns, 4 Peach Slices, Lettuce</li>
@@ -47,7 +47,7 @@
 	  </ul>
 	<label for="quantity">Quantity:</label><br/>
 	<input type="number" id="pcbgr" name="pcbgr" min="0" max="99">
-	<input type="button" id="buyButton" value="Buy" onclick="price()">
+	<input type="button" id="buyButton" value="Buy">
 	</p> <br>
 	  <p class="items">Mushroom Magic - 169.99<ul>
 		<li>Buns, 3 Hallucinogenic Mushrooms, 1 beef patty, Mayonnaise</li>
@@ -55,7 +55,7 @@
 	  </ul>
 	<label for="quantity">Quantity:</label><br/>
 	<input type="number" id="msmag" name="msmag" min="0" max="99">
-	<input type="button" id="buyButton" value="Buy" onclick="price()">
+	<input type="button" id="buyButton" value="Buy">
 	</p> <br>
 	  <p class="items">Budget Burger - 69.99<ul>
 		<li>Buns</li>
@@ -63,7 +63,7 @@
 	  </ul>
 	<label for="quantity">Quantity:</label><br/>
 	<input type="number" id="bdbgr" name="bdbgr" min="0" max="99">
-	<input type="button" id="buyButton" value="Buy" onclick="price()">
+	<input type="button" id="buyButton" value="Buy">
 	</p> <br>
 	  <p class="items">Aki Special - 189.99</p>
 	  <ul>
@@ -71,14 +71,9 @@
 		<li>Medium Four Seasons Juice</li>
 	  </ul>
 	  <label for="quantity">Quantity:</label><br/>
-	  <input type="number" id="bdbgr" name="bdbgr" min="0" max="99">
-	  <input type="button" id="buyButton" value="Buy" onclick="price()">
+	  <input type="number" id="akisp" name="akisp" min="0" max="99">
+	  <input type="button" id="buyButton" value="Buy">
 	<br><br>
-	<div>
-		<caption>Total:</caption>
-		<p id="totalPrice">0.00</p>
-		<input type="submit" value="Add to Cart">
-	</div>
    </div>
  </form>
 <footer style="position: relative; width: 99%;">
