@@ -294,3 +294,7 @@ form input:active {
 .tutorBlock h2 {
   color: #ffffff;
 }
+
+.price {
+	text-style: bold;
+}
