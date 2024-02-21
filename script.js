@@ -1,4 +1,10 @@
-let x = 
+let x = 0;
+
+document.getElementById("theme-button").addEventListener("click", changeTheme);
+
+var lightMode = true;
+
+
 
 function bitcoinGraph(value) {
 
@@ -35,15 +41,24 @@ function cartDisplay(){
 }
 
 function swapStyleSheet(sheet) {
-    document.getElementById("pageStyle").setAttribute("href", sheet);  
+    document.getElementById("pageStyle").setAttribute("href", sheet);
 }
 
-function initate() {
-    var light = document.getElementById("homeLightSheet");
-    var dark = document.getElementById("homeDarkSheet");
+function changeTheme() {
+	//let body = document.getElementsByTagName("body");
+    var themeButton = document.getElementById("theme-button");
+    /*var dark = document.getElementById("homeDarkSheet");
 
     light.onclick = swapStyleSheet("lightHome.css");
-    dark.onclick = swapStyleSheet("darkHome.css");
+    dark.onclick = swapStyleSheet("darkHome.css");*/
+	if (lightMode == true) {
+		swapStyleSheet("darkHome.css");
+		lightMode = false;
+	} else if (lightMode == false) {
+		swapStyleSheet("lightHome.css");
+		lightMode = true;
+	}
+	
 }
 
 
