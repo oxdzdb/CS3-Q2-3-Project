@@ -28,4 +28,16 @@ function cartDisplay(){
 	document.getElementById("inputInfo").innerHTML = "Quantity: " + x + "<br>" + "Price: " + 39.99*x;
 }
 
+function swapStyleSheet(sheet) {
+    document.getElementById("pageStyle").setAttribute("href", sheet);  
+}
+
+function initate() {
+    var light = document.getElementById("homeLightSheet");
+    var dark = document.getElementById("homeDarkSheet");
+
+    light.onclick = swapStyleSheet("lightHome.css");
+    dark.onclick = swapStyleSheet("darkHome.css");
+}
+
 
