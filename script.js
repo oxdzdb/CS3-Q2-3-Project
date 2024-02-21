@@ -54,9 +54,11 @@ function changeTheme() {
 	if (lightMode == true) {
 		swapStyleSheet("darkHome.css");
 		lightMode = false;
+		themeButton.textContent = "Dark Mode";
 	} else if (lightMode == false) {
 		swapStyleSheet("lightHome.css");
 		lightMode = true;
+		themeButton.textContent = "Light Mode";
 	}
 	
 }
