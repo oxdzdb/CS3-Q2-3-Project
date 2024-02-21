@@ -1,6 +1,7 @@
 let x = 0;
 
-document.getElementById("theme-button").addEventListener("click", changeTheme);
+var themeButton = document.getElementById("theme-button");
+if (themeButton) {themeButton.addEventListener("click", changeTheme);};
 
 var lightMode = true;
 
@@ -29,15 +30,16 @@ function price(x , y){
 }
 
 function cartDisplay(){
-	let amt = document.getElementById("amtQuant").value
-	let clc = document.getElementById("clcQuant").value
-	let pcb = document.getElementById("pcbQuant").value
-	let mmg = document.getElementById("mmgQuant").value
-	let aki = document.getElementById("akiQuant").value
-	let bdg = document.getElementById("bdgQuant").value
+	let amt = parseFloat(document.getElementById("amtQuant").value);
+	let clc = parseFloat(document.getElementById("clcQuant").value);
+	let pcb = parseFloat(document.getElementById("pcbQuant").value);
+	let mmg = parseFloat(document.getElementById("mmgQuant").value);
+	let aki = parseFloat(document.getElementById("akiQuant").value);
+	let bdg = parseFloat(document.getElementById("bdgQuant").value);
 	let totalQuant = amt + clc + pcb + mmg + aki + bdg;
 	
-	document.getElementById("inputInfo").innerHTML = "Quantity: " + totalQuant + "<br>" + "Price: " + (149.99*amt)+(199.99*clc)+(129.99*pcb)+(169.99*mmg)+(189.99*aki)+(39.99*bdg);
+	document.getElementById("inputInfo").textContent = "Quantity: " + totalQuant + "\nPrice: " + ((149.99*amt)+(199.99*clc)+(129.99*pcb)+(169.99*mmg)+(189.99*aki)+(39.99*bdg));
+	return false;
 }
 
 function swapStyleSheet(sheet) {
@@ -46,7 +48,7 @@ function swapStyleSheet(sheet) {
 
 function changeTheme() {
 	//let body = document.getElementsByTagName("body");
-    var themeButton = document.getElementById("theme-button");
+  
     /*var dark = document.getElementById("homeDarkSheet");
 
     light.onclick = swapStyleSheet("lightHome.css");
