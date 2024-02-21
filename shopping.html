@@ -24,62 +24,63 @@
 	<a href="shoppingCart.html" class="button">Cart</a>
   </nav>
   <hr>
-  <form>
-    <div class="paddedDiv">
-        <h2 class="menu">Combos</h2>
-        <p class="items">All-Meat - 149.99</p><ul>
-        <li>Buns, 4 [REDACTED] patties</li>
-        <li>Medium Dr. Eirin</li>
-        </ul>
-        <caption>Quantity:</caption>
-        <input type="number" id="almlt" name="allmt" min="0" max="99">
-        <input type="button" id="buyButton" value="Buy" onclick="price(almlt.value, buyButton.value)"> 
-        <p class="items">Colossal Cheese - 199.99<ul>
-        <li>Buns, 10 Cheese slices, Cheese Sauce</li>
-        <li>Medium Fries</li>
-        <li>Small Dr. Eirin</li>
-        </ul>
-      <caption>Quantity:</caption>
-      <input type="number" id="clchs" name="clchs" min="0" max="99">
-      <input type="button" id="buyButton" value="Buy" onclick="price(clchs.value,buyButton.value)">
-      </p> <br>
-        <p class="items">Peach Burger - 129.99<ul>
-        <li>Buns, 4 Peach Slices, Lettuce</li>
-        <li>Small Peach Lemonade</li>
-        </ul>
-      <caption>Quantity:</caption>
-      <input type="number" id="pcbgr" name="pcbgr" min="0" max="99">
-      <input type="button" id="buyButton" value="Buy" onclick="price(pcbgr.value,buyButton.value)">
-      </p> <br>
-        <p class="items">Mushroom Magic - 169.99<ul>
-        <li>Buns, 3 Hallucinogenic Mushrooms, 1 beef patty, Mayonnaise</li>
-        <li>Medium Purple Potion</li>
-        </ul>
-      <caption>Quantity:</caption>
-      <input type="number" id="msmag" name="msmag" min="0" max="99">
-      <input type="button" id="buyButton" value="Buy" onclick="price(msmag.value,buyButton.value)">
-      </p> <br>
-        <p class="items">Budget Burger - 69.99<ul>
-        <li>Buns</li>
-        <li>Small Green Tea</li>
-        </ul>
-      <caption>Quantity:</caption>
-      <input type="number" id="bdbgr" name="bdbgr" min="0" max="99">
-      <input type="button" id="buyButton" value="Buy" onclick="price(bdbgr.value,buyButton.value)">
-      </p> <br>
-        <p class="items">Aki Special - 189.99</p>
-        <ul>
-        <li>Buns, Sweet Potatoes, Lettuce, Tomatoes, Carrots</li>
-        <li>Medium Four Seasons Juice</li>
-        </ul>
-        <caption>Quantity:</caption>
-        <input type="number" id="frssn" name="frssn" min="0" max="99">
-        <input type="button" id="buyButton" value="Buy" onclick="price(frssn.value, buyButton.value)">
-      <br>
-    </div>
-  </form>
-  
   <form action="shopping.html">
+	<p class="items">
+	
+		All-Meat - 149.99
+		<ul>
+			<li>Buns, 4 patties</li>
+			<li>Medium Dr. Eirin</li>
+		</ul>
+    <label for="quantity">Quantity:</label><br>
+	<input type="number" id="amtQuant" name="amtQuant" value="0" min="0" max="100"><br>
+	</p>
+	
+	<p class="items">
+	
+		Colossal Cheese - 199.99
+		<ul>
+			<li>Buns, 10 Cheese Slices, Cheese Sauce</li>
+			<li>Medium Cheesy Fries</li>
+			<li>Small Dr. Eirin</li>
+		</ul>
+    <label for="quantity">Quantity:</label><br>
+	<input type="number" id="clcQuant" name="clcQuant" value="0" min="0" max="100"><br>
+	</p>
+	
+	<p class="items">
+	
+		Peach Burger - 129.99
+		<ul>
+			<li>Buns, 4 Peach Slices, Lettuce</li>
+			<li>Medium Peach Juice</li>
+		</ul>
+    <label for="quantity">Quantity:</label><br>
+	<input type="number" id="pcbQuant" name="pcbQuant" value="0" min="0" max="100"><br>
+	</p>
+	
+	<p class="items">
+	
+		Mushroom Magic - 169.99
+		<ul>
+			<li>Buns, 3 Mushrooms, 1 patty, mayonnaise</li>
+			<li>Medium Purple Potion</li>
+		</ul>
+    <label for="quantity">Quantity:</label><br>
+	<input type="number" id="mmgQuant" name="mmgQuant" value="0" min="0" max="100"><br>
+	</p>
+	
+	<p class="items">
+	
+		Aki Special - 189.99
+		<ul>
+			<li>Buns, Sweet Potatoes, Lettuce, Pickles, Ketchup</li>
+			<li>Large Four Seasons Juice</li>
+		</ul>
+    <label for="quantity">Quantity:</label><br>
+	<input type="number" id="akiQuant" name="akiQuant" value="0" min="0" max="100"><br>
+	</p>
+	
 	<p class="items">
 		Budget Burger - 39.99
 		<ul>
@@ -89,8 +90,10 @@
     <label for="quantity">Quantity:</label><br>
 	<input type="number" id="bdgQuant" name="bdgQuant" value="0" min="0" max="100"><br>
 	</p>
+	
 	<input type="submit" value="Add to Cart" onsubmit="cartDisplay()">
   </form>
+  
   <p id="inputInfo">hi</p>
   
 <footer style="position: relative; width: 99%;">
