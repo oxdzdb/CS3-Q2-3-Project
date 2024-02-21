@@ -21,6 +21,7 @@
   <nav class="navigator">
     <a href="index.html" class="button">Home</a>
     <a href="Tools.html" class="button">Tools</a>
+	<a href="shoppingCart.html" class="button">Cart</a>
   </nav>
   <hr>
   <form>
@@ -77,9 +78,21 @@
       <br>
     </div>
   </form>
-  <form>
-    
+  
+  <form action="shopping.html">
+	<p class="items">
+		Budget Burger - 39.99
+		<ul>
+			<li>Buns</li>
+			<li>Small Green Tea</li>
+		</ul>
+    <label for="quantity">Quantity:</label><br>
+	<input type="number" id="bdgQuant" name="bdgQuant" value="0" min="0" max="100"><br>
+	</p>
+	<input type="submit" value="Add to Cart" onsubmit="cartDisplay()">
   </form>
+  <p id="inputInfo">hi</p>
+  
 <footer style="position: relative; width: 99%;">
       &copy; 2023 BGB & JWE
     </footer>

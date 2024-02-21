@@ -1,3 +1,5 @@
+let x = 
+
 function bitcoinGraph(value) {
 
   if (value == "bitcoin") {
@@ -20,5 +22,10 @@ function price(x , y){
   alert(x + y + " is a great choice!");
 }
 
+function cartDisplay(){
+	let x = document.getElementById("bdgQuant").value
+	
+	document.getElementById("inputInfo").innerHTML = "Quantity: " + x + "<br>" + "Price: " + 39.99*x;
+}
 
 
