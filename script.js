@@ -15,5 +15,9 @@ function bcToPhp(value) {
 }
 
 function cashRegister() {
-	console.log("pluh");
+	document.getElementById("totalPrice").innerHTML = total;
+}
+
+function priceTotal() {
+	total = total + 149.99;
 }
